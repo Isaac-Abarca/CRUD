@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="538.0" prefWidth="447.0" style="-fx-background-color: #EEEEEE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Vistas.RegistroController">
+   <children>
+      <Pane prefHeight="538.0" prefWidth="233.0" style="-fx-background-color: #CFD8DC;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="214.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="txtUser" layoutX="107.0" layoutY="110.0" prefHeight="31.0" prefWidth="286.0" />
+            <TextField fx:id="txtContrasena" layoutX="107.0" layoutY="199.0" prefHeight="31.0" prefWidth="286.0" />
+            <TextField fx:id="txtConfirCotra" layoutX="111.0" layoutY="284.0" onKeyReleased="#compararContra" prefHeight="31.0" prefWidth="286.0" />
+            <Label alignment="CENTER" layoutX="24.0" prefHeight="62.0" prefWidth="150.0" text="Registro" textFill="#0a76b9">
+               <font>
+                  <Font name="Javanese Text" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="107.0" layoutY="76.0" text="Nombre usuario:" textFill="#0021f8">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="107.0" layoutY="160.0" text="Contraseña:" textFill="#0021f8">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="110.0" layoutY="238.0" text="Confirme la contraseña" textFill="#0021f8">
+               <font>
+                  <Font name="Javanese Text" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="ContraseñaCorrecta" layoutX="111.0" layoutY="320.0" onKeyReleased="#compararContra" prefHeight="21.0" prefWidth="127.0" textFill="#4000ff" />
+         </children>
+      </Pane>
+      <Button layoutX="290.0" layoutY="360.0" mnemonicParsing="false" onMouseClicked="#Registro" text="Registrarce" textFill="#0021f8">
+         <font>
+            <Font name="Javanese Text" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

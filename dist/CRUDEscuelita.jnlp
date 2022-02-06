@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CRUDEscuelita.jnlp">
+  <information>
+    <title>CRUDEscuelita</title>
+    <vendor>abarc</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CRUDEscuelita.jar" size="19110" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.13-bin.jar" size="753542" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="crudescuelita.CRUDEscuelita"  name="CRUDEscuelita" />
+  <update check="always"/>
+</jnlp>
