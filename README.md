@@ -1,0 +1,2 @@
+# CRUDEscuelita
+Este proyecto consiste en una implementación en el lenguaje java  de consultas básica a una base de datos  para este caso seria la base en mysql y apache server con xamp. Además, de la utilización de javaFx para el diseño de la interfaz. Agrosomodo cosiste en un sistema que permite el registro de cierta información (en este caso datos sobre estudiante), así como el actualizar la información y el poder eliminarla. También, permite la búsqueda de un registro en especial. 
