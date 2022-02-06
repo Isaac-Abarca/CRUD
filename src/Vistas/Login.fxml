@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="575.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Vistas.LoginController">
+   <children>
+      <Pane layoutX="-372.0" layoutY="109.0" prefHeight="582.0" prefWidth="760.0" rotate="-115.6" style="-fx-background-color: #5499C7;" AnchorPane.bottomAnchor="-109.0" AnchorPane.leftAnchor="-372.0" AnchorPane.rightAnchor="372.0" AnchorPane.topAnchor="109.0" />
+      <Pane layoutX="349.0" layoutY="8.0" prefHeight="574.0" prefWidth="411.0">
+         <children>
+            <Label layoutX="71.0" layoutY="393.0" onMouseClicked="#Registrarce" prefHeight="21.0" prefWidth="89.0" text="Registrarse" textFill="#1f86e0" underline="true">
+               
+            </Label>
+            <TextField fx:id="txtUsuName" layoutX="72.0" layoutY="250.0" prefHeight="31.0" prefWidth="247.0" />
+            <PasswordField fx:id="txtPasword" layoutX="72.0" layoutY="346.0" prefHeight="31.0" prefWidth="247.0" />
+            <Label layoutX="72.0" layoutY="191.0" text="Nombre usuario:" textFill="#1f86e0">
+               <font>
+                  <Font name="Javanese Text" size="21.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnLogin" layoutX="243.0" layoutY="399.0" mnemonicParsing="false" onAction="#Action" onMouseClicked="#Entrar" prefHeight="31.0" prefWidth="76.0" text="Login" textFill="#1f86e0">
+               
+            </Button>
+            <Label layoutX="71.0" layoutY="294.0" text="Contraseña:" textFill="#1f86e0">
+               <font>
+                  <Font name="Javanese Text" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="-134.0" layoutY="60.0" text="CRUD Escuelita" textFill="#1f86e0">
+               <font>
+                  <Font name="Javanese Text" size="41.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
